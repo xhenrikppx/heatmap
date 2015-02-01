@@ -1,0 +1,75 @@
+body {
+	background-color: #eeeeee;
+	color: #3b3a40;
+	font-weight: normal;
+	font-family: sans-serif;
+	border-top: 10px solid #2f76ac;
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	width: 710px;
+	margin: 0 auto;
+}
+#main {
+	width: 480px;
+	float: left;
+}
+
+	#main img.top {
+		
+	}
+
+#right {
+	float: right;
+	width: 209px;
+	padding: 10px;
+	border-right: 1px solid #2f76ac;
+}
+	#right ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+		#right ul li {
+			margin-bottom: 6px;
+		}
+	
+h1 {
+	font-family: Helvetica, 'Open Sans', sans-serif;
+	color: #2f76ac;
+	font-weight: bold;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: Helvetica, 'Open Sans', sans-serif;
+	color: #2f76ac;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.date-time {
+	font-size: 10px;
+	color: #3b3a40;
+}
+
+p {
+	color: #3b3a40;
+}
+
+a:link, a:visited {
+	color: #e93059;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+#heatmapArea {
+	height: 480px;
+	width: 480px;
+}
